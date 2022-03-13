@@ -85,7 +85,7 @@ sudo docker exec -it mysqlCon mysql -uroot -p
 ```
 docker rmi [OPTIONS] IMAGE [IMAGE...]
 
-docker rmi -f mountainchan/test:v1
+docker rmi -f <your_docker_hub>/test:v1
 ```
 
 ## Show containers
