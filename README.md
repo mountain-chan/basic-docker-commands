@@ -13,6 +13,11 @@ $containers = docker ps -a -q
 foreach ($container in $containers) { docker rm $container -f }
 ```
 
+## Remove all images unused
+```
+docker image prune -a
+```
+
 ## Remove all images
 * Ubuntu
 ```
